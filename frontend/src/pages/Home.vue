@@ -2,7 +2,7 @@
   <div>
     <button @click="login">로그인</button>
     <button @click="signup">회원가입</button>
-    <!-- <button @click="mypage">마이페이지</button> -->
+    <button @click="mypage">마이페이지</button>
   </div>
 </template>
 
@@ -19,11 +19,11 @@ export default {
         path: "signup",
       });
     },
-    // mypage() {
-    //   this.$router.push({
-    //     path: "mypage",
-    //   });
-    // },
+    mypage() {
+      this.$router.push({
+        path: "mypage",
+      });
+    },
   },
 };
 </script>

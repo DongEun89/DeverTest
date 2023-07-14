@@ -1,25 +1,10 @@
 <template>
   <div id="app">
     <router-view />
-    <CurrentWeather :state="state" />
   </div>
 </template>
 
-<script setup>
-import CurrentWeather from "./pages/CurrentWeather.vue";
-import axios from "axios";
-import { ref } from "vue";
-
-const state = ref({
-  username: "",
-  email: "",
-  password: "",
-  telephone: "",
-});
-axios.get("/api/weather").then((res) => {
-  state.value = res.data.data[0];
-});
-</script>
+<script setup></script>
 
 <style>
 #app {

@@ -5,7 +5,7 @@ import Detail from "@/pages/Detail";
 import Login from "@/pages/Login";
 import Signup from "@/pages/Signup";
 import Home from "@/pages/Home";
-// import Mypage from "@/pages/Mypage";
+import Mypage from "@/pages/Mypage";
 
 const routes = [
   {
@@ -38,11 +38,11 @@ const routes = [
     name: "Signup",
     component: Signup,
   },
-  // {
-  //   path: "/mypage",
-  //   name: "Mypage",
-  //   component: Mypage,
-  // },
+  {
+    path: "/mypage",
+    name: "Mypage",
+    component: Mypage,
+  },
 ];
 
 const router = createRouter({
