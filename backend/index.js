@@ -9,7 +9,7 @@ const database = require("./database");
 //   highest_temp: 25,
 //   lowest_temp: 19,
 // };
-app.get("/api/weather", (req, res) => {
+app.get("/api/user/myinfo", (req, res) => {
   database.query("SELECT * FROM users", (err, data) => {
     if (!err) {
       res.send({ data });

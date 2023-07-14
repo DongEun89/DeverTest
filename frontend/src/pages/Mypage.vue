@@ -16,7 +16,7 @@ const state = ref({
   password: "",
   telephone: "",
 });
-axios.get("/api/weather").then((res) => {
+axios.get("/api/user/myinfo").then((res) => {
   state.value = res.data.data[0];
 });
 </script>
