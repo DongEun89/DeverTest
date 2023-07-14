@@ -10,7 +10,7 @@ const database = require("./database");
 //   lowest_temp: 19,
 // };
 app.get("/api/weather", (req, res) => {
-  database.query("SELECT * FROM users2", (err, data) => {
+  database.query("SELECT * FROM users", (err, data) => {
     if (!err) {
       res.send({ data });
     } else console.log(err);

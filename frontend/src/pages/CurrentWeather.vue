@@ -2,16 +2,20 @@
   <div>
     <ul>
       <li>
-        <dt>아이디</dt>
-        <dd>{{ state.userid }}</dd>
+        <dt>이메일</dt>
+        <dd>{{ state.email }}</dd>
       </li>
       <li>
         <dt>이름</dt>
-        <dd>{{ state.name }}</dd>
+        <dd>{{ state.username }}</dd>
       </li>
       <li>
         <dt>비밀번호</dt>
         <dd>{{ state.password }}</dd>
+      </li>
+      <li>
+        <dt>전화번호</dt>
+        <dd>{{ state.telephone }}</dd>
       </li>
     </ul>
   </div>

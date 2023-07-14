@@ -12,8 +12,9 @@ import { ref } from "vue";
 
 const state = ref({
   username: "",
-  name: "",
+  email: "",
   password: "",
+  telephone: "",
 });
 axios.get("/api/weather").then((res) => {
   state.value = res.data.data[0];
