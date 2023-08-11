@@ -2,12 +2,12 @@
   <div>
     <ul>
       <li>
-        <dt>이메일</dt>
-        <dd>{{ state.email }}</dd>
-      </li>
-      <li>
         <dt>이름</dt>
         <dd>{{ state.username }}</dd>
+      </li>
+      <li>
+        <dt>이메일</dt>
+        <dd>{{ state.email }}</dd>
       </li>
       <li>
         <dt>비밀번호</dt>
